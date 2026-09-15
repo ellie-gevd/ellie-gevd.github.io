@@ -1,20 +1,462 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Elizabeth Vázquez Dávila</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Elizabeth Vázquez Dávila | Data & Business Analytics</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background: #f4f6f8;
+            color: #263238;
+            line-height: 1.7;
+        }
+
+        /* HEADER */
+
+        header {
+            background: #17202a;
+            color: white;
+            padding: 75px 20px;
+        }
+
+        .header-container {
+            max-width: 1050px;
+            margin: auto;
+        }
+
+        header h1 {
+            font-size: 46px;
+            margin-bottom: 10px;
+        }
+
+        header h2 {
+            font-size: 21px;
+            font-weight: normal;
+            color: #d6dce1;
+            margin-bottom: 25px;
+        }
+
+        header p {
+            max-width: 780px;
+            font-size: 18px;
+            color: #e8ecef;
+        }
+
+        .buttons {
+            margin-top: 30px;
+        }
+
+        .button {
+            display: inline-block;
+            padding: 11px 22px;
+            margin-right: 10px;
+            border-radius: 6px;
+            text-decoration: none;
+            font-weight: bold;
+            background: white;
+            color: #17202a;
+        }
+
+        .button:hover {
+            opacity: 0.85;
+        }
+
+        .button-outline {
+            background: transparent;
+            border: 1px solid #d6dce1;
+            color: white;
+        }
+
+        /* MAIN */
+
+        main {
+            max-width: 1050px;
+            margin: 50px auto;
+            padding: 0 20px;
+        }
+
+        section {
+            margin-bottom: 55px;
+        }
+
+        section h2 {
+            font-size: 30px;
+            margin-bottom: 22px;
+            color: #17202a;
+        }
+
+        .intro {
+            max-width: 850px;
+            font-size: 17px;
+        }
+
+        /* PROJECT CARDS */
+
+        .project {
+            background: white;
+            padding: 30px;
+            margin-bottom: 25px;
+            border-radius: 10px;
+            box-shadow: 0 3px 15px rgba(0,0,0,0.07);
+        }
+
+        .project h3 {
+            font-size: 23px;
+            color: #17202a;
+            margin-bottom: 12px;
+        }
+
+        .project p {
+            margin-bottom: 15px;
+        }
+
+        .project-link {
+            color: #1f618d;
+            font-weight: bold;
+            text-decoration: none;
+        }
+
+        .project-link:hover {
+            text-decoration: underline;
+        }
+
+        /* SKILLS */
+
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .skill {
+            background: white;
+            border: 1px solid #dfe4e8;
+            border-radius: 20px;
+            padding: 8px 15px;
+            font-size: 14px;
+        }
+
+        /* EXPERIENCE */
+
+        .experience-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 25px;
+        }
+
+        .experience-card {
+            background: white;
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0 3px 15px rgba(0,0,0,0.05);
+        }
+
+        .experience-card h3 {
+            margin-bottom: 12px;
+            color: #17202a;
+        }
+
+        /* FOOTER */
+
+        footer {
+            background: #17202a;
+            color: #d6dce1;
+            text-align: center;
+            padding: 30px 20px;
+        }
+
+        footer p {
+            margin-bottom: 8px;
+        }
+
+        footer a {
+            color: white;
+            text-decoration: none;
+            margin: 0 8px;
+        }
+
+        /* MOBILE */
+
+        @media (max-width: 700px) {
+
+            header {
+                padding: 55px 20px;
+            }
+
+            header h1 {
+                font-size: 34px;
+            }
+
+            header h2 {
+                font-size: 18px;
+            }
+
+            .experience-grid {
+                grid-template-columns: 1fr;
+            }
+
+        }
+    </style>
 </head>
 
 <body>
 
-    <h1>Elizabeth Vázquez Dávila</h1>
+<header>
 
-    <h2>Data Analyst | BI Analyst | Business Analyst | Data Quality</h2>
+    <div class="header-container">
+
+        <h1>Elizabeth Vázquez Dávila</h1>
+
+        <h2>
+            Data Analyst | BI Analyst | Business Analyst | Data Quality
+        </h2>
+
+        <p>
+            Data and business analytics professional with 15+ years of
+            experience in financial services, information validation,
+            quality control, reporting and business processes.
+        </p>
+
+        <div class="buttons">
+
+            <a class="button"
+               href="https://github.com/ellie-gevd"
+               target="_blank">
+                GitHub
+            </a>
+
+            <a class="button button-outline"
+               href="https://www.linkedin.com/in/ellievazquezdavila/"
+               target="_blank">
+                LinkedIn
+            </a>
+
+        </div>
+
+    </div>
+
+</header>
+
+
+<main>
+
+    <!-- ABOUT -->
+
+    <section>
+
+        <h2>About Me</h2>
+
+        <p class="intro">
+            I combine extensive experience in financial operations and
+            information quality with current training in data and business
+            analytics.
+        </p>
+
+        <br>
+
+        <p class="intro">
+            My experience includes data validation, migration validation,
+            QA/UAT, KPI reporting, financial analysis, reporting and process
+            improvement. I am currently focused on applying Python, SQL,
+            PostgreSQL and Power BI to transform data into useful information
+            for business decision-making.
+        </p>
+
+    </section>
+
+
+    <!-- FEATURED PROJECT -->
+
+    <section>
+
+        <h2>Featured Project</h2>
+
+        <div class="project">
+
+            <h3>
+                Executive Business Analytics
+            </h3>
+
+            <p>
+                <strong>Financial Performance & Budget Analysis</strong>
+            </p>
+
+            <p>
+                Business analytics project focused on financial performance
+                and budget analysis by month, department and region.
+            </p>
+
+            <p>
+                The project combines Python, PostgreSQL, SQL and Power BI
+                to transform financial data into business insights through
+                an executive dashboard.
+            </p>
+
+            <p>
+                <strong>Tools:</strong>
+                Python · Pandas · PostgreSQL · SQL · Power Query · DAX · Power BI
+            </p>
+
+            <a class="project-link"
+               href="https://github.com/ellie-gevd/Executive_Business_Analytics"
+               target="_blank">
+                View project on GitHub →
+            </a>
+
+        </div>
+
+    </section>
+
+
+    <!-- OTHER PROJECTS -->
+
+    <section>
+
+        <h2>Other Projects</h2>
+
+
+        <div class="project">
+
+            <h3>
+                Customer Churn Prediction
+            </h3>
+
+            <p>
+                Machine learning project focused on identifying factors
+                associated with customer churn using classification models
+                and evaluation metrics including ROC-AUC.
+            </p>
+
+            <p>
+                <strong>Tools:</strong>
+                Python · Pandas · Scikit-learn · Machine Learning
+            </p>
+
+        </div>
+
+
+        <div class="project">
+
+            <h3>
+                BERT Sentiment Analysis
+            </h3>
+
+            <p>
+                Natural language processing project focused on sentiment
+                classification using a BERT-based approach.
+            </p>
+
+            <p>
+                <strong>Tools:</strong>
+                Python · NLP · BERT
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- SKILLS -->
+
+    <section>
+
+        <h2>Skills & Technologies</h2>
+
+        <div class="skills">
+
+            <span class="skill">Python</span>
+            <span class="skill">Pandas</span>
+            <span class="skill">NumPy</span>
+            <span class="skill">SQL</span>
+            <span class="skill">PostgreSQL</span>
+            <span class="skill">SQLAlchemy</span>
+            <span class="skill">Power BI</span>
+            <span class="skill">Power Query</span>
+            <span class="skill">DAX</span>
+            <span class="skill">Excel</span>
+            <span class="skill">Data Analysis</span>
+            <span class="skill">Business Analytics</span>
+            <span class="skill">Data Quality</span>
+            <span class="skill">Data Validation</span>
+            <span class="skill">QA / UAT</span>
+            <span class="skill">KPI Reporting</span>
+            <span class="skill">Financial Analysis</span>
+            <span class="skill">Git / GitHub</span>
+
+        </div>
+
+    </section>
+
+
+    <!-- PROFESSIONAL EXPERIENCE -->
+
+    <section>
+
+        <h2>Professional Experience</h2>
+
+        <div class="experience-grid">
+
+            <div class="experience-card">
+
+                <h3>Financial Services</h3>
+
+                <p>
+                    15+ years of experience working with financial information,
+                    contracts, operations, reporting and business processes.
+                </p>
+
+            </div>
+
+
+            <div class="experience-card">
+
+                <h3>Data & Quality</h3>
+
+                <p>
+                    Experience in information validation, migration validation,
+                    QA/UAT, reconciliation, KPI reporting and process
+                    improvement.
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+</main>
+
+
+<footer>
 
     <p>
-        Data & Business Analytics professional with experience in
-        financial services, data validation, quality control and reporting.
+        Elizabeth Vázquez Dávila
     </p>
+
+    <p>
+        <a href="https://github.com/ellie-gevd"
+           target="_blank">
+            GitHub
+        </a>
+
+        |
+
+        <a href="https://www.linkedin.com/in/ellievazquezdavila/"
+           target="_blank">
+            LinkedIn
+        </a>
+    </p>
+
+</footer>
 
 </body>
 </html>
